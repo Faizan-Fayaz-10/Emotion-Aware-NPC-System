@@ -81,8 +81,19 @@ python3 npc_emotion.py
 
 ---
 
-## 👩‍💻 Author
+## 👤 Author
 
-**Name**: ALVIRA PARVEEN  
-🔗 [LinkedIn](https://www.linkedin.com/in/alvira-parveen-78022536b)  
-🌐 [GitHub](https://github.com/Alvira-Parveen)
+**Name**: FAIZAN FAYAZ 
+
+🔗 [LinkedIn](https://www.linkedin.com/in/faizan-fayaz-464723326/)  
+🌐 [GitHub](https://github.com/Faizan-Fayaz-10)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+---
+
+⭐ If you found this project useful, consider giving it a star.
