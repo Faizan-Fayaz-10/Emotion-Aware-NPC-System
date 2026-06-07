@@ -38,6 +38,7 @@ This project demonstrates **how AI-powered NPCs can detect human emotions in rea
 
 # 🧩 Project Structure
 
+```
 emotion_npc/
 ├── web_app.py              # Flask backend + emotion detection API
 ├── templates/
@@ -45,6 +46,7 @@ emotion_npc/
 ├── npc_emotion.py          # Original OpenCV-based script
 ├── requirements.txt        # Python dependencies
 └── README.md               # This file
+```
 
 ---
 
