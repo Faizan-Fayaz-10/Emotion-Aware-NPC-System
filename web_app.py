@@ -76,9 +76,12 @@ def detect():
     # Draw on ALL detected faces
     draw = ImageDraw.Draw(pil_img)
     try:
-        font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 18)
+        font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 18)
     except (OSError, IOError):
-        font = ImageFont.load_default()
+        try:
+            font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 18)
+        except (OSError, IOError):
+            font = ImageFont.load_default()
 
     faces_data = []
     for i, face in enumerate(results):
